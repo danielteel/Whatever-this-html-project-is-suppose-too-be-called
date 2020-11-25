@@ -5,20 +5,25 @@
     <body>
 
         <div>
-        <form>
-              <label>Name<input type="text"></label>
-              <br/>
-              <label>Password<input type="password"></label>
-              <br/>
-              <label>Github<input type="text"></label>
-              <br/>
-              <fieldset>
-                <legend>Account</legend>
-                <label><input type="radio" name="radio">Enterprise</label>
-                <label><input type="radio" name="radio">Pro</label>
-                <label><input type="radio" name="radio">Free</label>
-              </fieldset>
-          </form>
-          </div>
+            <form>
+                <fieldset>
+                    <dl>
+                        <dt>Name</dt>
+                        <dd><input type="text"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password"></dd>
+                        <dt>Github</dt>
+                        <dd><input type="text"></dd>
+                    </dl>
+                    <fieldset>
+                        <legend>Account</legend>
+                        <input type="radio" name="radio"><label>Enterprise</label>
+                        <input type="radio" name="radio"><label>Pro</label>
+                        <input type="radio" name="radio"><label>Free</label>
+                    </fieldset>
+                    <input type="checkbox" name="rememberMe" checked><label for="rememberMe">Remember me?</label>
+                </form>
+            </fieldset>
+        </div>
     </body>
 </html>
